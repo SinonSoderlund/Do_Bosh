@@ -1,0 +1,79 @@
+.bg-primary {
+    color: rgb(243, 134, 0);
+    background-color: rgb(219, 69, 23) !important;
+}
+
+
+body {
+    color: #a4e9d2;
+    background-color: black;
+}
+
+
+
+.navbar-brand,
+.nav-link {
+    color: #b6f1e8;
+}
+
+.active>* {
+    color: #6cffce;
+}
+
+footer {
+    color: #6cffce;
+    text-align: center;
+    margin-top: 3em;
+    padding-bottom: 0.5em;
+    background-color: rgb(219, 69, 23);
+}
+
+#run {
+    margin-right: .25rem;
+}
+
+#output {
+    margin-top: 2rem;
+}
+
+#carded {
+    align-content: center;
+
+}
+
+.card * {
+    background-color: rgb(34, 33, 33);
+    color: #a4e9d2;
+}
+
+.btn-task
+{
+
+    height: 100%;
+    text-align: left;
+}
+
+.btn-remove
+{
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
+
+#taskGroup > * .btn-task
+{
+    text-decoration:solid line-through;
+    border: 1px, solid #6cffce;
+    background-color: grey;
+}
+#taskGroup > * .active
+{
+    text-decoration: none;
+    background-color: inherit;
+}
+.alert
+{
+    text-align: center;
+    background-color: rgb(219, 69, 23);
+    color: #6cffce;
+}
